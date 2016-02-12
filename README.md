@@ -2,17 +2,12 @@
 
 node-recaptcha renders and verifies [Recaptcha](http://www.google.com/recaptcha) captchas.
 
-**NOTE**: This release currently only supports Recaptcha [version 1](https://developers.google.com/recaptcha/old/intro).
 
 ## Installation
 
-Via git:
-
-    $ git clone git://github.com/mirhampt/node-recaptcha.git ~/.node_libraries/node-recaptcha
-
 Via npm:
 
-    $ npm install recaptcha
+    $ npm install recaptcha-goole
 
 ## Setup
 
@@ -44,7 +39,7 @@ structure like the following before the form in your document:
 app.js:
 
     var express  = require('express'),
-        Recaptcha = require('recaptcha').Recaptcha;
+        Recaptcha = require('recaptcha').RecaptchaV2;
 
     var PUBLIC_KEY  = 'YOUR_PUBLIC_KEY',
         PRIVATE_KEY = 'YOUR_PRIVATE_KEY';
