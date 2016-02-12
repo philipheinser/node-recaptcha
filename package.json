@@ -1,8 +1,8 @@
 {
-    "name": "recaptcha",
+    "name": "recaptcha-google",
     "description": "Display and verify a Recaptcha captcha",
-    "version": "1.2.1",
-    "author": "Michael Hampton <mirhampt+github@gmail.com>",
+    "version": "1.0.0",
+    "author": "Philip Heinser <philipheinser@me.com>",
     "main": "./lib/recaptcha.js",
     "devDependencies": {
       "nodeunit": "*"
@@ -10,6 +10,6 @@
     "engines": { "node": ">= 0.6.0" },
     "repository": {
         "type": "git",
-        "url" : "https://github.com/mirhampt/node-recaptcha.git"
+        "url" : "https://github.com/philipheinser/node-recaptcha.git"
     }
 }
